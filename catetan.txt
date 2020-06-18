@@ -1,0 +1,24 @@
+KUOTA
+menghitung pengeluaran uang perbulan untuk membeli kuota.
+
+Dihitung berdasarkan : 
+                        Total pembelian semua user (ditotal melalui tabel pengeluaran, harga),
+                        Total pembelian masing-masing user, 
+                        Total pembelian selama 1 minggu,
+                        Total pembelian selama 1 bulan.
+
+KOLOM PENCARIAN DIMATIKAN (semua yang di cari akan menuju ke 404.html)
+    namun disimpan di database
+
+Database :
+
+-user : id, Nama, Password, Nomor HP, email,pengeluaran.
+-pengeluaran : id, Nama, Harga,
+-search_enggine (biar keren:v) : id, nama, keyword, kategori, tanggal
+-pesan : id, nama, dari, chat, dattim
+-info : id, info, dattim
+-data_catatan : id, nama, size, harga, tanggal,
+
+
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Aplication is made with <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> by <a  href="https://instagram.com/zuma.akbar" target="_blank">Zuma Akbar</a>
+
